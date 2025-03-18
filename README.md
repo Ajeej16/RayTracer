@@ -5,6 +5,10 @@ This project is a multi-hit ray tracer implemented in C, utilizing OpenGL and GL
 The ray tracer supports rendering of spheres and 3D meshes with configurable material properties, including diffuse and specular lighting. Ray-triangle intersection 
 tests and lighting computations are performed on the GPU using compute shaders, enabling efficient parallel processing of rays.
 
+![Ray Tracer Example](./images/img0.png)
+
+![Ray Tracer Example](./images/img1.png)
+
 ## How to Build
 Follow these steps to build and set up the ray tracing project.
 
