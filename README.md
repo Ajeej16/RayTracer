@@ -1,20 +1,12 @@
 # Ray Tracing Project
 
 ## Introduction
-The is a simple implementation of a multi-hit ray tracer, utilizing c and glsl.
-This ray tracer is able to render spheres and meshes with specified material
-properties. The renderer supports diffuse and specular lighting.
-
-## Author
-**Alejandro Fernandez**
-- Contact: alejandr.fernand@ufl.edu
-- GitHub: ajeejuf
+This project is a multi-hit ray tracer implemented in C, utilizing OpenGL and GLSL compute shaders for GPU-accelerated ray tracing calculations. 
+The ray tracer supports rendering of spheres and 3D meshes with configurable material properties, including diffuse and specular lighting. Ray-triangle intersection 
+tests and lighting computations are performed on the GPU using compute shaders, enabling efficient parallel processing of rays.
 
 ## How to Build
 Follow these steps to build and set up the ray tracing project.
-
-### Prerequisites
-- [List any prerequisites users need to install before building the project.]
 
 ### Build Instructions
 1. Clone the repository: `git clone [repository URL]`
@@ -26,9 +18,6 @@ open in Visual Studios.
 
 Note: Read through the build batch file and make sure that the path the your Visual Studios directory is the same. If you do not have Visual Studios, then install it. If
 the path is different, please modify the path in the batch file in order for you to run the vcvars64.bat script.
-
-## Controls
-Understand how to interact with the ray tracing application using the following controls.
 
 ### Keyboard Controls
 - **W, A, S, D:** Move forward, left, backward, and right.
